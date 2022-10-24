@@ -1,0 +1,17 @@
+.footerbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--boxColor);
+            padding: 40px;
+}
+
+.footerbox h1 {
+            font-size: 42px;
+}
+
+.footerbox div {
+            display: flex;
+            margin: 10px;
+}

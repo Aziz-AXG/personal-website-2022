@@ -1,0 +1,93 @@
+.contactContener {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+}
+
+.contactBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            width: 900px;
+            background: var(--boxColor);
+            margin: 60px;
+            padding-bottom: 40px;
+}
+
+.contactBox h1 {
+            font-size: 42px;
+            margin-top: 20px;
+}
+
+.contactList {
+            display: flex;
+            justify-content: space-around;
+            width: 900px;
+}
+
+.formBox {
+            display: grid;
+            font-size: 24px;
+}
+
+.formBox label {
+            color: var(--textColor);
+            margin: 10px 0 10px 0;
+}
+
+.formBox input {
+            background: none;
+            color: var(--textColor);
+            border: 2px solid var(--themeColor);
+            border-radius: 12px;
+            height: 30px;
+            width: 240px;
+            text-align: start;
+            font-size: 18px;
+            box-sizing: border-box;
+            padding-left: 10px;
+}
+
+.formBox textarea {
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid var(--themeColor);
+            border-radius: 4px;
+            background-color: var(--boxColor);
+            font-size: 16px;
+            resize: none;
+            margin: 5px 0 20px 0;
+}
+
+.ReachMe {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+}
+
+.ReachMe input {
+            width: 350px;
+            margin-top: 100px;
+}
+
+@media screen and (max-width:1000px) {
+            .contactBox {
+                        width: 280px;
+            }
+
+            .contactList {
+                        flex-direction: column;
+                        align-items: center;
+                        width: 280px;
+            }
+
+            .ReachMe input {
+                        width: 240px;
+                        margin-top: 20px;
+            }
+}

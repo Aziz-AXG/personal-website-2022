@@ -1,0 +1,105 @@
+.projectsContener {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 60px;
+}
+
+.projectsContener h1 {
+            font-size: 60px;
+}
+
+.projectsBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: var(--boxColor);
+            margin-top: 60px;
+            width: 900px;
+            border-radius: 12px;
+            padding-bottom: 40px;
+}
+
+.projectList {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 80px;
+}
+
+.projectIMG {
+            display: block;
+            width: 700px;
+            border-radius: 12px;
+            border: 4px solid var(--themeColor);
+}
+
+.onHoverView {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: var(--boxColor);
+            width: 690px;
+            height: 368px;
+            border-radius: 12px;
+            opacity: 0;
+}
+
+.onHoverView:hover {
+            opacity: 0.8;
+            font-size: 80px;
+}
+
+.onHoverView h1 {
+            color: var(--themeColor)
+}
+
+.onHoverView p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 42px;
+            border: 4px solid var(--themeColor);
+            color: var(--textColor);
+            border-radius: 8px;
+            padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+            .projectsContener h1 {
+                        font-size: 48px;
+            }
+
+            .projectsBox {
+                        width: 280px;
+            }
+
+            .projectList {
+                        padding-top: 40px;
+            }
+
+            .projectIMG {
+                        width: 200px;
+            }
+
+            .onHoverView {
+                        height: 100px;
+                        width: 190px;
+
+            }
+
+            .onHoverView h1 {
+                        font-size: 24px;
+            }
+
+            .onHoverView p {
+                        font-size: 24px;
+            }
+
+
+}

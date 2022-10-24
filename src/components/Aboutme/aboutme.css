@@ -1,0 +1,57 @@
+.aboutContainer {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+}
+
+.azizIMG {
+            width: 350px;
+}
+
+.aboutText {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+}
+
+.aboutText h1 {
+            font-size: 46px;
+}
+
+.aboutText h2 {
+            font-size: 32px;
+}
+
+.resumeBTN {
+            border: 2px solid var(--themeColor);
+            width: 230px;
+            border-radius: 10px;
+            color: var(--textColor);
+            margin-top: 20px;
+}
+
+.resumeBTN:hover {
+            background: var(--themeColor);
+}
+
+
+@media only screen and (max-width:900px) {
+            .aboutContainer {
+                        display: grid;
+            }
+
+            .aboutText h1 {
+                        font-size: 32px;
+                        padding-top: 10px;
+            }
+
+            .aboutText h2 {
+                        font-size: 24px;
+            }
+
+            .azizIMG {
+                        padding-top: 1%;
+                        width: 280px;
+            }
+}
