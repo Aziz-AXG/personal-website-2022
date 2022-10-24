@@ -2,7 +2,7 @@ import { SiReact, SiSass, SiMaterialui, SiExpress, SiStyledcomponents, SiPuppete
 
 export const MainSkiles = [
             {
-                        name: 'THML5',
+                        name: 'HTML5',
                         proportion: '90'
             },
             {
