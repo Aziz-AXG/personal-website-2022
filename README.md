@@ -16,7 +16,6 @@ The website Collecting all information about my skills and work from 2020 to 202
 
 *sweetalert2
 
-*fs
 
 # VIEW Website
 
