@@ -13,7 +13,7 @@ function FindMe() {
                                                                         <h1 className='findmeH1'>{item.name}</h1>
                                                             </div>
                                                             <p>{item.description}</p>
-                                                            <a href={item.link} target="_blank" rel="noreferrer">Facebook</a>
+                                                            <a href={item.link} target="_blank" rel="noreferrer">{item.name}</a>
                                                 </div>
                                     })}
                         </div>
