@@ -15,7 +15,7 @@ function Footer() {
                                                 <a href='https://www.linkedin.com/in/aziz-falah' target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
                                                 <a href='https://www.facebook.com/AzizXgamer' target="_blank" rel="noreferrer"><AiFillFacebook /></a>
                                     </div>
-                                    <h2 data-aos='zoom-in'>©<span>{year}</span> by Aziz Falah</h2>
+                                    <h2 >©<span>{year}</span> by Aziz Falah</h2>
                         </footer>
             )
 }

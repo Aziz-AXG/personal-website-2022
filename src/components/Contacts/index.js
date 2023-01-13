@@ -9,6 +9,13 @@ function Contacts() {
 
             const sendEmail = (e) => {
                         e.preventDefault();
+                        if (document.getElementById("Email").value === '') {
+                                    return Swal.fire(
+                                                'Empty information!',
+                                                'Please put your information',
+                                                'question'
+                                    )
+                        }
                         emailjs.sendForm('azizfalah', 'azizContact', form.current, 'DW1pyzphottfTqVPw')
                                     .then((result) => {
                                                 Swal.fire(
@@ -35,7 +42,7 @@ function Contacts() {
                                                                         <label>Name</label>
                                                                         <input type="text" name="user_name" placeholder="Your Name.." />
                                                                         <label>Email</label>
-                                                                        <input type="email" name="user_email" placeholder="Your Email.." />
+                                                                        <input type="email" id='Email' name="user_email" placeholder="Your Email.." />
                                                                         <label>Phone Number</label>
                                                                         <input type="tel" name="phone" placeholder="Your Phone Number.." />
                                                                         <label>Subject</label>

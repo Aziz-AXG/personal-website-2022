@@ -1,4 +1,4 @@
-import { SiReact, SiSass, SiMaterialui, SiExpress, SiStyledcomponents, SiPuppeteer, SiGit, SiGithub, SiMongodb } from 'react-icons/si'
+import { SiReact, SiSass, SiDart, SiMaterialui, SiExpress, SiStyledcomponents, SiPuppeteer, SiGit, SiGithub, SiMongodb, SiPostman } from 'react-icons/si'
 
 export const MainSkiles = [
             {
@@ -11,7 +11,11 @@ export const MainSkiles = [
             },
             {
                         name: 'JavaScript/ES6',
-                        proportion: '60'
+                        proportion: '80'
+            },
+            {
+                        name: 'flutter',
+                        proportion: '70'
             },
             {
                         name: 'React.js',
@@ -19,7 +23,7 @@ export const MainSkiles = [
             },
             {
                         name: 'Node.js',
-                        proportion: '40'
+                        proportion: '60'
             },
 ]
 
@@ -35,6 +39,10 @@ export const SkilesData = [
             {
                         icon: <SiStyledcomponents />,
                         name: 'Styled-Components'
+            },
+            {
+                        icon: <SiDart />,
+                        name: 'Dart'
             },
             {
                         icon: <SiMongodb />,
@@ -55,6 +63,10 @@ export const SkilesData = [
             {
                         icon: <SiGithub />,
                         name: 'Github'
+            },
+            {
+                        icon: <SiPostman />,
+                        name: 'Postman'
             },
             {
                         icon: <SiPuppeteer />,
