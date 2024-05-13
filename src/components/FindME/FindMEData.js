@@ -13,7 +13,7 @@ export const FindMEData = [
                         name: 'GitHub',
                         icon: <AiFillGithub />,
                         description: "You can watch my source code of my project in my GitHub account",
-                        link: 'https://github.com/AXG-coder',
+                        link: 'https://github.com/Aziz-AXG',
                         aosData: 'flip-up'
             },
             {
